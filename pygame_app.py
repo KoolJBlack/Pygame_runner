@@ -1,6 +1,6 @@
 from pygame_runner import *
 
-class my_pygame_app(base_pygame_app):
+class MyPygameApp(BasePygameApp):
 
 	def setup(self):
 		self.size(640, 480)
@@ -20,5 +20,5 @@ class my_pygame_app(base_pygame_app):
 # Runner Methods
 # =============================================================================
 if __name__ == '__main__':
-	pygame_app = my_pygame_app()
+	pygame_app = MyPygameApp()
 	pygame_app.run()
